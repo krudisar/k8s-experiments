@@ -8,17 +8,6 @@ Mix of links, Q/A and howtos around Kubernetes and related technologies.
 - [ ] vSphere Storage for Kubernetes - Modify App to Use Persistent Storage
 - [ ] Add Wavefront Monitoring
 
-Some basic Git commands are:
-```
-git status
-git add
-git commit
-```
-
-Links:
-
-- This site was built using [GitHub Pages](https://pages.github.com/).
-
 # Supergiant Blog Around Kubernetes
 - Blog: (https://supergiant.io/blog/)
 - Deploying Traefik as Ingress Controller for Your Kubernetes Cluster - (https://supergiant.io/blog/using-traefik-as-ingress-controller-for-your-kubernetes-cluster/)
