@@ -48,3 +48,6 @@ Mix of links, Q/A and howtos around Kubernetes and related technologies.
 
 # Kubernetes App Deplyments/Updates Strategies
 - Enable Rolling updates in Kubernetes with Zero downtime - (https://medium.com/platformer-blog/enable-rolling-updates-in-kubernetes-with-zero-downtime-31d7ec388c81)
+
+# Tips from Internet
+- How to wait until Kubernetes assigned an external IP to a LoadBalancer service? - (https://stackoverflow.com/questions/35179410/how-to-wait-until-kubernetes-assigned-an-external-ip-to-a-loadbalancer-service)
