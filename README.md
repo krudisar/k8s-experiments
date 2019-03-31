@@ -1,13 +1,6 @@
 # k8s-experiments
 Mix of links, Q/A and howtos around Kubernetes and related technologies.
 
-Basic writing and formatting syntax - (https://help.github.com/en/articles/basic-writing-and-formatting-syntax)
-
-**This is bold text**
-*This text is italicized*
-~~This was mistaken text~~
-**This text is _extremely_ important**
-
 - [ ] VMware PKS Enterprise without NSX-T
 - [ ] Terraform / Kubespray / vSphere
 - [ ] Add Ingress (Traefik | Nginx)
