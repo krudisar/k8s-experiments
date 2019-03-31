@@ -8,9 +8,12 @@ Basic writing and formatting syntax - (https://help.github.com/en/articles/basic
 ~~This was mistaken text~~
 **This text is _extremely_ important**
 
-- [x] Finish my changes
-- [ ] Push my commits to GitHub
-- [ ] Open a pull request
+- [ ] VMware PKS Enterprise without NSX-T
+- [ ] Terraform / Kubespray / vSphere
+- [ ] Add Ingress (Traefik | Nginx)
+- [ ] Add Let's Encrypt Integration with Ingress 
+- [ ] vSphere Storage for Kubernetes - Modify App to Use Persistent Storage
+- [ ] Add Wavefront Monitoring
 
 Some basic Git commands are:
 ```
