@@ -29,7 +29,7 @@ Mix of links, Q/A and howtos around Kubernetes and related technologies.
 - From Start to PKS - (https://github.com/keunlee/from-start-to-pks)
 - Ultimate Kubernetes Bootcamp - (https://schoolofdevops.github.io/ultimate-kubernetes-bootcamp/cluster_setup_kubespray/)
 
-# Minikube | Kubespray | ...
+# Minikube | Kubespray | MicroK8s | ...
 
 - Get Started With Kubernetes Using Minikube - (https://docs.bitnami.com/kubernetes/get-started-kubernetes/#step-4-install-helm-and-tiller)
 - terraform-vsphere-kubespray - (https://github.com/sguyennet/terraform-vsphere-kubespray)
