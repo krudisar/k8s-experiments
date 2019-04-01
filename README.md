@@ -8,6 +8,13 @@ Mix of links, Q/A and howtos around Kubernetes and related technologies.
 - [ ] vSphere Storage for Kubernetes - Modify App to Use Persistent Storage
 - [ ] Add Wavefront Monitoring
 
+# VMware Cloud Native Apps
+- Apps on PKS - (https://github.com/CNA-Tech/Apps-on-PKS)
+  - Ingress, Prometheus, Istio, Contour, Jenkins, ...
+- PKS Ninja Community - (https://github.com/CNA-Tech/PKS-Ninja)
+- PKS-POC - (https://github.com/CNA-Tech/PKS-POC)
+  - Applications-Deployment, Harbor-Integration, NSX-T-Integration, WaveFront-Integration, Persistent-Volumes
+  
 # Supergiant Blog Around Kubernetes
 - Blog: (https://supergiant.io/blog/)
 - Deploying Traefik as Ingress Controller for Your Kubernetes Cluster - (https://supergiant.io/blog/using-traefik-as-ingress-controller-for-your-kubernetes-cluster/)
