@@ -35,7 +35,7 @@ Mix of links, Q/A and howtos around Kubernetes and related technologies.
 - terraform-vsphere-kubespray - (https://github.com/sguyennet/terraform-vsphere-kubespray)
 - Kubespray – 10 Simple Steps for Installing a Production-Ready, Multi-Master HA Kubernetes Cluster - (https://aws-labs.com/kubespray-10-simple-steps-installing-production-ready-multi-master-ha-kubernetes-cluster/)
 - Kubespray — 10 simple steps for installing a production ready, multi-master HA Kubernetes cluster on bare-metal servers - (https://medium.com/@amit.man1810/kubespray-10-simple-steps-for-installing-a-production-ready-multi-master-ha-kubernetes-cluster-5d3ba9b35703)
-- 
+- Kubespray Official Documentation - (https://kubespray.io)
 
 # Generic Ingress
 - Getting external traffic into Kubernetes – ClusterIp, NodePort, LoadBalancer, and Ingress - (https://www.ovh.com/fr/blog/getting-external-traffic-into-kubernetes-clusterip-nodeport-loadbalancer-and-ingress/)
