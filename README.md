@@ -45,7 +45,7 @@ Mix of links, Q/A and howtos around Kubernetes and related technologies.
 # Traefik Load Balancer & Ingress
 
 - Kubernetes & Traefik 101— When Simplicity Matters - (https://medium.com/@geraldcroes/kubernetes-traefik-101-when-simplicity-matters-957eeede2cf8)
-- Traefik as K8S Ingress Controller - (https://medium.com/@dusansusic/traefik-ingress-controller-for-k8s-c1137c9c05c4)
+- (!) Traefik as K8S Ingress Controller - (https://medium.com/@dusansusic/traefik-ingress-controller-for-k8s-c1137c9c05c4)
   - https://github.com/dusansusic/kubernetes-traefik
 - Kubernetes Ingress Provider - (https://docs.traefik.io/configuration/backends/kubernetes/)
 - Kubernetes cluster step-by-step: Services and Load Balancing (Traefik) - (https://icicimov.github.io/blog/kubernetes/Kubernetes-cluster-step-by-step-Part8/)
