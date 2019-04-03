@@ -43,14 +43,20 @@ Mix of links, Q/A and howtos around Kubernetes and related technologies.
 - Kubernetes Nginx Ingress Controller - (https://akomljen.com/kubernetes-nginx-ingress-controller/)
 
 # Traefik Load Balancer & Ingress
+
 - Kubernetes & Traefik 101— When Simplicity Matters - (https://medium.com/@geraldcroes/kubernetes-traefik-101-when-simplicity-matters-957eeede2cf8)
 - Traefik as K8S Ingress Controller - (https://medium.com/@dusansusic/traefik-ingress-controller-for-k8s-c1137c9c05c4)
+  - https://github.com/dusansusic/kubernetes-traefik
 - Kubernetes Ingress Provider - (https://docs.traefik.io/configuration/backends/kubernetes/)
 - Kubernetes cluster step-by-step: Services and Load Balancing (Traefik) - (https://icicimov.github.io/blog/kubernetes/Kubernetes-cluster-step-by-step-Part8/)
 - Proxying Kubernetes services with Traefik - (https://www.praqma.com/stories/proxying-kubernetes/)
 - Awesome Traefik - (https://github.com/containous/traefik/wiki/Awesome-Traefik)
   - A comprehensive list of Taefik resources
 
+# MetalLB - Kubernetes Load Balancer / Ingress
+- Install and configure MetalLB as a load balancer for Kubernetes (https://blog.inkubate.io/install-and-configure-metallb-as-a-load-balancer-for-kubernetes/)
+  - https://github.com/danderson/metallb
+  
 # Kubernetes RBAC
 - Testing Kubernetes RBAC - (https://medium.com/yld-engineering-blog/testing-kubernetes-rbac-5e00dc93af8e)
 
