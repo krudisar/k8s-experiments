@@ -1,8 +1,8 @@
 # k8s-experiments
 Mix of links, Q/A and howtos around Kubernetes and related technologies.
 
-- [ ] VMware PKS Enterprise without NSX-T
-- [ ] Terraform / Kubespray / vSphere
+- [X] VMware PKS Enterprise without NSX-T
+- [X] Terraform / Kubespray / vSphere
 - [ ] Add Ingress (Traefik | Nginx)
 - [ ] Add Let's Encrypt Integration with Ingress 
 - [ ] vSphere Storage for Kubernetes - Modify App to Use Persistent Storage
