@@ -3,10 +3,13 @@ Mix of links, Q/A and howtos around Kubernetes and related technologies.
 
 - [X] VMware PKS Enterprise without NSX-T
 - [X] Terraform / Kubespray / vSphere
+- [X] MetalLB LoadBalancer with PKS Enterprise 
+- [ ] vSphere Storage for Kubernetes - Modify App to Use Persistent Storage
+- [ ] HELM Charts with PKS Enterprise
+- [X] Add Wavefront Monitoring
+- [ ] A Read Only Kubernetes Dashboard (http://blog.cowger.us/2018/07/03/a-read-only-kubernetes-dashboard.html)
 - [ ] Add Ingress (Traefik | Nginx)
 - [ ] Add Let's Encrypt Integration with Ingress 
-- [ ] vSphere Storage for Kubernetes - Modify App to Use Persistent Storage
-- [X] Add Wavefront Monitoring
 
 # VMware Cloud Native Apps - PKS Resources
 - Apps on PKS - (https://github.com/CNA-Tech/Apps-on-PKS)
@@ -16,8 +19,11 @@ Mix of links, Q/A and howtos around Kubernetes and related technologies.
   - Applications-Deployment, Harbor-Integration, NSX-T-Integration, WaveFront-Integration, Persistent-Volumes
 - TechSummit PKS Demo (https://github.com/bdereims/pks-prep/tree/master/k8s/TechSummit)
   
-# AWS Lambda #
+# Serverless - AWS Lambda #
 - Create a REST API Endpoint Using AWS Lambda (https://hackersandslackers.com/create-a-rest-api-endpoint-using-aws-lambda/)
+- Serverless API: Creating a Serverless md5 Hash Generator Using AWS Lambda & Chalice (https://medium.com/devopslinks/creating-a-serverless-python-api-using-aws-lambda-chalice-d321dc43ce2)
+- AWS Lambda + Serverless Framework + Python — A Step By Step Tutorial — Part 1 “Hello World” (https://medium.com/devopslinks/aws-lambda-serverless-framework-python-part-1-a-step-by-step-hello-world-4182202aba4a)
+- Creating a Serverless Uptime Monitor & Getting Alerted by SMS — Lambda, Zappa & Python (https://medium.com/devopslinks/creating-a-serverless-uptime-monitor-getting-alerted-by-sms-lambda-zappa-python-flask-15c5fb31027)
 
 # Monitoring Using Prometheus / Grafana #
 - Get Kubernetes Cluster Metrics with Prometheus in 5 Minutes (https://akomljen.com/get-kubernetes-cluster-metrics-with-prometheus-in-5-minutes/)
@@ -39,13 +45,11 @@ Mix of links, Q/A and howtos around Kubernetes and related technologies.
 - Steps to Install Kubernetes on CentOS7 with Kubeadm and vSphere (https://gist.github.com/kacole2/200ae9362b010480f866d82a363c5327)
   - includes vSphere Persistent Storage Provider
 
-
 # Generic Kubernetes Howtos
 - From Start to PKS - (https://github.com/keunlee/from-start-to-pks)
 - Ultimate Kubernetes Bootcamp - (https://schoolofdevops.github.io/ultimate-kubernetes-bootcamp/cluster_setup_kubespray/)
 
 # Minikube | Kubespray | MicroK8s | Typhoon | ...
-
 - Get Started With Kubernetes Using Minikube - (https://docs.bitnami.com/kubernetes/get-started-kubernetes/#step-4-install-helm-and-tiller)
 - terraform-vsphere-kubespray - (https://github.com/sguyennet/terraform-vsphere-kubespray)
 - Kubespray – 10 Simple Steps for Installing a Production-Ready, Multi-Master HA Kubernetes Cluster - (https://aws-labs.com/kubespray-10-simple-steps-installing-production-ready-multi-master-ha-kubernetes-cluster/)
@@ -105,6 +109,13 @@ Mix of links, Q/A and howtos around Kubernetes and related technologies.
 
 # Python Apps & Kubernetes
 - Deploy a simple Python application with Kubernetes (https://developer.ibm.com/tutorials/scalable-python-app-with-kubernetes/)
+- Monitoring Your Synchronous Python Web Applications Using Prometheus (https://blog.codeship.com/monitoring-your-synchronous-python-web-applications-using-prometheus/)
+- Python + Prometheus Demo (https://github.com/amitsaha/python-prometheus-demo)
+- Quickstart for Python/WSGI applications (https://uwsgi-docs.readthedocs.io/en/latest/WSGIquickstart.html)
+
+# Azure #
+- Creating web apps with Flask in Azure (https://github.com/Cojacfar/FlaskWeb)
+
 
 # Environment Variables in Dockerfile, docker-compose & Kubernetes deployment YAML
 - Using environment variables in Kubernetes deployment spec (https://serverfault.com/questions/791715/using-environment-variables-in-kubernetes-deployment-spec)
