@@ -6,15 +6,27 @@ Mix of links, Q/A and howtos around Kubernetes and related technologies.
 - [ ] Add Ingress (Traefik | Nginx)
 - [ ] Add Let's Encrypt Integration with Ingress 
 - [ ] vSphere Storage for Kubernetes - Modify App to Use Persistent Storage
-- [ ] Add Wavefront Monitoring
+- [X] Add Wavefront Monitoring
 
-# VMware Cloud Native Apps
+# VMware Cloud Native Apps - PKS Resources
 - Apps on PKS - (https://github.com/CNA-Tech/Apps-on-PKS)
   - Ingress, Prometheus, Istio, Contour, Jenkins, ...
 - PKS Ninja Community - (https://github.com/CNA-Tech/PKS-Ninja)
 - PKS-POC - (https://github.com/CNA-Tech/PKS-POC)
   - Applications-Deployment, Harbor-Integration, NSX-T-Integration, WaveFront-Integration, Persistent-Volumes
+- TechSummit PKS Demo (https://github.com/bdereims/pks-prep/tree/master/k8s/TechSummit)
   
+# AWS Lambda #
+- Create a REST API Endpoint Using AWS Lambda (https://hackersandslackers.com/create-a-rest-api-endpoint-using-aws-lambda/)
+
+# Monitoring Using Prometheus / Grafana #
+- Get Kubernetes Cluster Metrics with Prometheus in 5 Minutes (https://akomljen.com/get-kubernetes-cluster-metrics-with-prometheus-in-5-minutes/)
+- !!! - Production grade Kubernetes Monitoring using Prometheus (https://medium.com/devopslinks/production-grade-kubernetes-monitoring-using-prometheus-78144b835b60)
+- !!! - Kubernetes Monitoring with Prometheus: AlertManager, Grafana, PushGateway (https://sysdig.com/blog/kubernetes-monitoring-with-prometheus-alertmanager-grafana-pushgateway-part-2/)
+
+# Log Management Using ELK
+- Get Kubernetes Logs with EFK Stack in 5 Minutes (https://akomljen.com/get-kubernetes-logs-with-efk-stack-in-5-minutes/)
+
 # Supergiant Blog Around Kubernetes
 - Blog: (https://supergiant.io/blog/)
 - Deploying Traefik as Ingress Controller for Your Kubernetes Cluster - (https://supergiant.io/blog/using-traefik-as-ingress-controller-for-your-kubernetes-cluster/)
@@ -24,6 +36,9 @@ Mix of links, Q/A and howtos around Kubernetes and related technologies.
 # VMware & Kubernetes
 - vSphere Storage for Kubernetes - (https://vmware.github.io/vsphere-storage-for-kubernetes/documentation/index.html)
   - Details - (https://gitee.com/cdtian/kubespray/raw/master/docs/vsphere.md)
+- Steps to Install Kubernetes on CentOS7 with Kubeadm and vSphere (https://gist.github.com/kacole2/200ae9362b010480f866d82a363c5327)
+  - includes vSphere Persistent Storage Provider
+
 
 # Generic Kubernetes Howtos
 - From Start to PKS - (https://github.com/keunlee/from-start-to-pks)
@@ -37,13 +52,15 @@ Mix of links, Q/A and howtos around Kubernetes and related technologies.
 - Kubespray — 10 simple steps for installing a production ready, multi-master HA Kubernetes cluster on bare-metal servers - (https://medium.com/@amit.man1810/kubespray-10-simple-steps-for-installing-a-production-ready-multi-master-ha-kubernetes-cluster-5d3ba9b35703)
 - Kubespray Official Documentation - (https://kubespray.io)
 
+# Heptio
+- Kubernetes Contour Ingress Controller for Envoy Proxy - (https://akomljen.com/kubernetes-contour-ingress-controller-for-envoy-proxy/)
+
 # Generic Ingress
 - Getting external traffic into Kubernetes – ClusterIp, NodePort, LoadBalancer, and Ingress - (https://www.ovh.com/fr/blog/getting-external-traffic-into-kubernetes-clusterip-nodeport-loadbalancer-and-ingress/)
 - Kubernetes Ingress with Nginx Example - (https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-ingress-guide-nginx-example.html)
 - Kubernetes Nginx Ingress Controller - (https://akomljen.com/kubernetes-nginx-ingress-controller/)
 
 # Traefik Load Balancer & Ingress
-
 - Kubernetes & Traefik 101— When Simplicity Matters - (https://medium.com/@geraldcroes/kubernetes-traefik-101-when-simplicity-matters-957eeede2cf8)
 - (!) **Traefik as K8S Ingress Controller** - (https://medium.com/@dusansusic/traefik-ingress-controller-for-k8s-c1137c9c05c4)
   - https://github.com/dusansusic/kubernetes-traefik
@@ -56,6 +73,7 @@ Mix of links, Q/A and howtos around Kubernetes and related technologies.
 # MetalLB - Kubernetes Load Balancer / Ingress
 - Install and configure MetalLB as a load balancer for Kubernetes (https://blog.inkubate.io/install-and-configure-metallb-as-a-load-balancer-for-kubernetes/)
   - https://github.com/danderson/metallb
+  - Using Kubernetes ExternalDNS & MetalLB with a Home/Bare Metal K8S: Part 1 (https://blog.cowger.us/2018/07/25/using-kubernetes-externaldns-with-a-home-bare-metal-k8s.html)
   
 # Kubernetes RBAC
 - Testing Kubernetes RBAC - (https://medium.com/yld-engineering-blog/testing-kubernetes-rbac-5e00dc93af8e)
@@ -80,3 +98,18 @@ Mix of links, Q/A and howtos around Kubernetes and related technologies.
   
 # Tips from Internet
 - How to wait until Kubernetes assigned an external IP to a LoadBalancer service? - (https://stackoverflow.com/questions/35179410/how-to-wait-until-kubernetes-assigned-an-external-ip-to-a-loadbalancer-service)
+
+# Slack API resources #
+- https://github.com/slackapi/python-link-button-example
+- https://github.com/slackapi/python-message-menu-example
+
+# Python Apps & Kubernetes
+- Deploy a simple Python application with Kubernetes (https://developer.ibm.com/tutorials/scalable-python-app-with-kubernetes/)
+
+# Environment Variables in Dockerfile, docker-compose & Kubernetes deployment YAML
+- Using environment variables in Kubernetes deployment spec (https://serverfault.com/questions/791715/using-environment-variables-in-kubernetes-deployment-spec)
+- Define Environment Variables for a Container (https://kubernetes.io/docs/tasks/inject-data-application/define-environment-variable-container/)
+- Define a Command and Arguments for a Container (https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#use-environment-variables-to-define-arguments)
+- Expose Pod Information to Containers Through Environment Variables (https://kubernetes.io/docs/tasks/inject-data-application/environment-variable-expose-pod-information/)
+- Using Variables in Docker Compose files - (https://blog.agchapman.com/using-variables-in-docker-compose-files/)
+- Environment variables in Compose (https://docs.docker.com/compose/environment-variables/)
