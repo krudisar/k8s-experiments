@@ -5,7 +5,7 @@ Mix of links, Q/A and howtos around Kubernetes and related technologies.
 - [X] Terraform / Kubespray / vSphere
 - [X] MetalLB LoadBalancer with PKS Enterprise 
 - [ ] vSphere Storage for Kubernetes - Modify App to Use Persistent Storage
-- [ ] HELM Charts with PKS Enterprise
+- [X] HELM Charts with PKS Enterprise
 - [X] Add Wavefront Monitoring
 - [ ] A Read Only Kubernetes Dashboard (http://blog.cowger.us/2018/07/03/a-read-only-kubernetes-dashboard.html)
 - [ ] Add Ingress (Traefik | Nginx)
