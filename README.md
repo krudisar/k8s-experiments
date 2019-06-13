@@ -124,3 +124,10 @@ Mix of links, Q/A and howtos around Kubernetes and related technologies.
 - Expose Pod Information to Containers Through Environment Variables (https://kubernetes.io/docs/tasks/inject-data-application/environment-variable-expose-pod-information/)
 - Using Variables in Docker Compose files - (https://blog.agchapman.com/using-variables-in-docker-compose-files/)
 - Environment variables in Compose (https://docs.docker.com/compose/environment-variables/)
+
+# Kubernetes Network Policies
+- Securing Cluster Networking with Network Policies - Ahmet Balkan, Google (https://www.youtube.com/watch?v=3gGpMmYeEO8&t=0m0s)
+- Securing Cluster Networking with Network Policies - Slides: (https://github.com/sbueringer/kubecon-slides/blob/master/slides/2017-kubecon-na/Securing%20Cluster%20Networking%20with%20Network%20Policies%20-%20Ahmet%20Balkan%2C%20Google%20-%20ahmetb%20KubeCon%202017%20NA%20%E2%80%93%20Network%20Policies.pdf)
+- Kubernetes Engine Tutorials - Configuring Network Policies for Applications (https://cloud.google.com/kubernetes-engine/docs/tutorials/network-policy)
+- An Introduction to Kubernetes Network Policies for Security People (https://medium.com/@reuvenharrison/an-introduction-to-kubernetes-network-policies-for-security-people-ba92dd4c809d)
+
